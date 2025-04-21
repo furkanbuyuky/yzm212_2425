@@ -6,5 +6,10 @@ Temel Bileşenler Analizi (PCA), Tekil Değer Ayrışımı (SVD) gibi makine ö�
 
 NumPy'nin linalg.eig fonksiyonu, bir kare matrisin özdeğerlerini ve bu özdeğerlere karşılık gelen özvektörlerini bulmak için kullanılır. Fonksiyon çalışırken önce verilen matris uygun bir düzene sokulur ve arka planda LAPACK kütüphanesine ait geev fonksiyonu kullanılır. Bu işlem sırasında matrisin daha basit bir şekil olan üçgensel forma dönüştürülmesi sağlanır, matris üzerinde Schur ayrışımı ve QR yöntemi gibi işlemler uygulayarak özdeğerleri ve özvektörleri bulur. Sonuç olarak, hesaplanan özdeğerler ve özvektörler kullanıcıya NumPy dizileri olarak döndürülür. Eğer matris özel bir yapıya sahipse, örneğin simetrikse, daha doğru sonuçlar almak için eigh isimli başka bir fonksiyonun kullanılması önerilir.
 
+Kaynakça: https://www.geeksforgeeks.org/matrices-and-matrix-arithmetic-for-machine-learning/
+https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/
+https://github.com/LucasBN/Eigenvalues-and-Eigenvectors
+https://numpy.org/doc/2.1/reference/generated/numpy.linalg.eigh.html
+
 
 
