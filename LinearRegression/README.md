@@ -10,5 +10,6 @@ Bu farkın nedeni, manuel gradyan iniş algoritmasının sınırlı sayıda iter
 
 Sonuç olarak, basit doğrusal regresyon problemlerinde analitik yöntemler, her koşulda en düşük hatayı elde etmek adına daha güvenilir ve hızlıdır. Bununla birlikte hesaplama kaynakları ve uygulama gereksinimleri izin veriyorsa, uygun hiperparametre seçimi ile manuel gradyan iniş de kabul edilebilir sonuçlar verebilir. Gelecekteki çalışmalarda, farklı düzenlileştirme terimleri ve optimizasyon stratejileri ile modelin genelleme yeteneği üzerine ek deneyler yapılması önerilir.
 
-Kaynakça: https://www.geeksforgeeks.org/linear-regression-python-implementation/
+Kaynakça: https://www.geeksforgeeks.org/linear-regression-python-implementation/ 
+
 https://www.youtube.com/watch?v=VmbA0pi2cRQ
