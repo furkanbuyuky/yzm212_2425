@@ -9,3 +9,6 @@ Elde edilen sonuçlar şunlardır. Manuel gradyan iniş yönteminde eğim yakla�
 Bu farkın nedeni, manuel gradyan iniş algoritmasının sınırlı sayıda iterasyon ve sabit öğrenme oranı ile tam optimum noktaya ulaşamamasıdır. Oysa scikit-learn’ün analitik yöntemi bir yandan normal denklem yaklaşımını bir yandan da sayısal olarak kararlı tekil değer ayrışımı yöntemini kullanarak tamamen en küçük kareler ölçütünü karşılayan sonucu doğrudan üretir. Manuel yöntemin analitik çözüme yaklaşabilmesi için iterasyon sayısının artırılması, öğrenme oranının ayarlanması veya adaptif optimizasyon tekniklerinin tercih edilmesi mümkündür.
 
 Sonuç olarak, basit doğrusal regresyon problemlerinde analitik yöntemler, her koşulda en düşük hatayı elde etmek adına daha güvenilir ve hızlıdır. Bununla birlikte hesaplama kaynakları ve uygulama gereksinimleri izin veriyorsa, uygun hiperparametre seçimi ile manuel gradyan iniş de kabul edilebilir sonuçlar verebilir. Gelecekteki çalışmalarda, farklı düzenlileştirme terimleri ve optimizasyon stratejileri ile modelin genelleme yeteneği üzerine ek deneyler yapılması önerilir.
+
+Kaynakça: https://www.geeksforgeeks.org/linear-regression-python-implementation/
+https://www.youtube.com/watch?v=VmbA0pi2cRQ
